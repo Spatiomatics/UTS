@@ -1,0 +1,34 @@
+{
+    "schema": {"name":"UIM", "version": 1.0, "uri": "http://github.com/uts/schemas"}, 
+    "project": { "name": "spatiomatics", "id": "UIM", "copyright": "CC BY 4.0", "creator": "Darrel Ronald"},
+    "defaults": 
+        {
+            "geo_crs": "WGS 84",
+            "geo_coordinates": { "lat": 49.8951, "long": 97.1384, "alt": 100}
+        },
+    "data_public": 
+        [
+            {
+                "guid" : "rhino3D-27592535heefgieseljks",
+                "geometry" : {"type":"point", "xyz": [0, 0, 100]},
+                "address_CA": {"country": "canada", "province":"manitoba", "city":"winnipeg", "street": "street", "postal_code":"code"},
+                "graphics" : { "color": "red", "material": "prairie grass" },
+                "geography" : { "state": "Canada", "province": "MB", "city": "winnipeg" },
+                "urban_design" : { "development": 10, "district": 5, "block": 7, "plot": "WPG-10599" },
+                "regulations" : { "max_height": 100, "min_setback": 5, "max_GFA": 10000 },
+                "time_planning" : { "planning_application_deadline": "timedate", "construction_start": "timedate" },
+                "construction" : { "contractor" : "name", "construction_start": 2020, "construction_finish": 2021 },
+                "real_estate" : { "year_last_sale": 2001, "price_last_sale": 500000, "price_current_asking": 600000 }
+                },
+                {
+                "guid" : "rhino3D-27592535heefgieseljks",
+                "geometry": {"type":"point_collection", "xyz": [ (0,0,0), (1,1,1), (2,2,2), (3,3,3), (4,4,4), (5,5,5) ] },
+                "address_NL": {"country": "nederland", "province":"zuid holland", "city":"rotterdam", "street": "BM", "postal_code":"code"},
+                "graphics" : { "color": "orange", "material": "polder grass" },
+                "urban_design" : { "development": 10, "district": 5, "block": 7, "plot": "WPG-10599" },
+                "regulations" : { "max_height": 100, "min_setback": 5, "max_GFA": 10000 },
+                "real_estate" : { "year_last_sale": 2010, "price_last_sale": 250000, "price_current_asking": 300000 }
+            }
+        ],
+    "data_private": [{}, {}, {}]
+}
