@@ -6,7 +6,7 @@
 - version
 - uri
 
-project
+#### project
 - name
 - id
 - version
@@ -18,19 +18,20 @@ project
 - contact
 - copyright
 
-geo_crs
+#### geo_crs
 - name
 
-geo_coordinates
+#### geo_coordinates
 - lat
 - lng
 - alt
 
-data_public
+#### data_public
 - [ { topology + geometry + attributes }]
   
-data_private
+#### data_private
 - [ { topology + geometry + attributes }]
+
 
 
 # ATTRIBUTES
