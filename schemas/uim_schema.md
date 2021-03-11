@@ -1,6 +1,5 @@
 # META
 
-
 #### schema
 - name
 - version
@@ -31,7 +30,6 @@
   
 #### data_private
 - [ { topology + geometry + attributes }]
-
 
 
 # ATTRIBUTES
