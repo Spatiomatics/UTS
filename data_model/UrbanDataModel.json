@@ -4,7 +4,7 @@
     "defaults": 
         {
             "geo_crs": "WGS 84",
-            "geo_coordinates": { "lat": 49.8951, "long": 97.1384, "alt": 100}
+            "geo_coordinates": { "lat": 49.8951, "long": 97.1384, "alt": 10}
         },
     "data_public": 
         [
