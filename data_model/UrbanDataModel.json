@@ -1,6 +1,6 @@
 {
     "schema": {"name":"UIM", "version": 1.0, "uri": "http://github.com/uts/schemas"}, 
-    "project": { "name": "spatiomatics", "id": "UIM", "copyright": "CC BY 4.0", "creator": "Darrel Ronald"},
+    "project": {"name": "spatiomatics", "id": "UIM", "copyright": "CC BY 4.0", "creator": "Darrel Ronald"},
     "defaults": 
         {
             "geo_crs": "WGS 84",
@@ -22,7 +22,7 @@
                 },
                 {
                 "guid" : "rhino3D-27592535heefgieseljks",
-                "geometry": {"type":"point_collection", "xyz": [ (0,0,0), (1,1,1), (2,2,2), (3,3,3), (4,4,4), (5,5,5) ] },
+                "geometry": {"type":"point_collection", "xyz": [ [0,0,0], [1,1,1], [2,2,2], [3,3,3], [4,4,4], [5,5,5]]},
                 "address_NL": {"country": "nederland", "province":"zuid holland", "city":"rotterdam", "street": "BM", "postal_code":"code"},
                 "graphics" : { "color": "orange", "material": "polder grass" },
                 "urban_design" : { "development": 10, "district": 5, "block": 7, "plot": "WPG-10599" },
