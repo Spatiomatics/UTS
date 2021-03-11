@@ -1,5 +1,4 @@
-==========
-META
+# META
 
 
 schema
@@ -34,8 +33,7 @@ data_private
 - [ { topology + geometry + attributes }]
 
 
-==========
-ATTRIBUTES
+# ATTRIBUTES
 
 
 
