@@ -1,3 +1,5 @@
+// SIMPLE EXAMPLE OF A uimJSON file
+
 {
     "schema": {"name":"UIM", "version": 1.0, "uri": "https://github.com/Spatiomatics/UTS/blob/main/data_model/UrbanDataModel.json"}, 
     "project": {"name": "Spatiomatics", "id": "UTS", "copyright": "CC BY 4.0", "creator": "Darrel Ronald"},
@@ -17,7 +19,8 @@
                 "regulations": {"max_height": 100, "min_setback": 5, "max_GFA": 10000},
                 "time_planning": {"planning_application_deadline": "timedate", "construction_start": "timedate"},
                 "construction": {"contractor": "name", "construction_start": 2020, "construction_finish": 2021},
-                "real_estate": {"year_last_sale": 2001, "price_last_sale": 500000, "price_current_asking": 600000}
+                "real_estate": {"year_last_sale": 2001, "price_last_sale": 500000, "price_current_asking": 600000},
+                "property": {"occupied": false}
             },
             {
                 "topology": "network",
