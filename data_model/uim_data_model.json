@@ -8,7 +8,6 @@
             "geo_crs": "WGS 84",
             "geo_coordinates": { "lat": 49.8951, "lng": 97.1384, "alt": 10},
         },
-<<<<<<< Updated upstream
     "data_public": 
         [
             {
@@ -49,44 +48,3 @@
             }
         ]
 }
-=======
-    "data": [
-        {
-            "uuid" : "123e4567-e89b-12d3-a456-42661417400",
-            "guid" : "rhino3D-27592-535h-eefg-iesexxxxxxx",
-            "geometry": {"type":"point", "xyz": [0, 0, 100]},
-            "graphics": {"color": "red", "material": "prairie grass"},
-            "geography": {"state": "Canada", "province": "MB", "city": "winnipeg"},
-            "urban_design": {"development": 10, "district": 5, "block": 7, "plot": "WPG-10599"},
-            "regulations": {"max_height": 100, "min_setback": 5, "max_GFA": 10000},
-            "time_planning": {"planning_application_deadline": "timedate", "construction_start": "timedate"},
-            "construction": {"contractor": "name", "construction_start": 2020, "construction_finish": 2021},
-            "real_estate": {"year_last_sale": 2001, "price_last_sale": 500000, "price_current_asking": 600000}
-        },
-        {
-            "topology": "network",
-            "nodes": 
-                {
-                    "uuid" : "123e4567-e89b-12d3-a456-18135481354",
-                    "guid" : "rhino3D-27592-535h-eefg-ieseyyyyyyy",
-                    "geometry": {"type":"point_collection", "xyz": [ [0,0,0], [1,1,1], [2,2,2], [3,3,3], [4,4,4], [5,5,5]]},
-                    "graphics": {"color": "orange", "material": "polder grass"},
-                    "urban_design": {"development": 10, "district": 5, "block": 7, "plot": "WPG-10599"},
-                    "regulations": {"max_height": 100, "min_setback": 5, "max_GFA": 10000},
-                    "real_estate": {"year_last_sale": 2010, "price_last_sale": 250000, "price_current_asking": 300000}
-                },
-            "edges": null
-        }
-    ],
-    "data_private": [
-        {
-            "uuid" : "123e4567-e89b-12d3-a456-42661417400",
-            "address_CA": {"country": "canada", "province":"manitoba", "city":"winnipeg", "street": "street", "postal_code":"code"},
-        },
-        {
-            "uuid" : "123e4567-e89b-12d3-a456-18135481354",
-            "address_NL": {"privacy": "private", "country": "nederland", "province":"zuid holland", "city":"rotterdam", "street": "BM", "postal_code":"code"}
-        }
-    ]
-}
->>>>>>> Stashed changes
