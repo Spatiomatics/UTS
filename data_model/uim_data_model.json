@@ -11,6 +11,7 @@
     "data_public": 
         [
             {
+                "uuid" : "123e4567-e89b-12d3-a456-426614174000",
                 "guid" : "rhino3D-27592535heefgiesexxxx",
                 "geometry": {"type":"point", "xyz": [0, 0, 100]},
                 "graphics": {"color": "red", "material": "prairie grass"},
@@ -26,6 +27,7 @@
                 "topology": "network",
                 "nodes": 
                     {
+                        "uuid" : "123e4567-e89b-12d3-a456-426614174111",
                         "guid": "rhino3D-27592535heefgieseyyyy",
                         "geometry": {"type":"point_collection", "xyz": [ [0,0,0], [1,1,1], [2,2,2], [3,3,3], [4,4,4], [5,5,5]]},
                         "graphics": {"color": "orange", "material": "polder grass"},
@@ -39,11 +41,11 @@
     "data_private": 
         [
             {
-                "guid":"rhino3D-27592535heefgiesexxxx",
+                "uuid" : "123e4567-e89b-12d3-a456-426614174000",
                 "address_CA": {"country": "canada", "province":"manitoba", "city":"winnipeg", "street": "street", "postal_code":"code"}
             },
             {
-                "guid": "rhino3D-27592535heefgieseyyyy",
+                "uuid" : "123e4567-e89b-12d3-a456-426614174111",
                 "address_NL": {"country": "nederland", "province":"zuid holland", "city":"rotterdam", "street": "BM", "postal_code":"code"}
             }
         ]
